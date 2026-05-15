@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>💬 Chat</h1>
+
+    <!-- Username -->
+    <div class="username-bar">
+      <input type="text" id="username" placeholder="Your name" maxlength="20" />
+    </div>
+
+    <!-- Messages -->
+    <div id="messages"></div>
+
+    <!-- Send message form -->
+    <form id="message-form">
+      <input type="text" id="message-input" placeholder="Type a message..." />
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="feedback"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
