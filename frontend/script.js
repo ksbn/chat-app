@@ -15,6 +15,11 @@ function renderMessages(messages) {
   const container = document.getElementById("messages");
   container.innerHTML = "";
 
+  if (messages.length === 0) {
+    container.innerHTML = '<p class="empty">No messages yet. Say hello! 👋</p>';
+    return;
+  }
+
   messages.forEach(msg => {
     const div = document.createElement("div");
     div.className = "message";
