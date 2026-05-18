@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "http://e3mn44m87slnvcrzuj55dq1o.178.105.39.91.sslip.io";
 
 // Load and display messages
 async function loadMessages() {
